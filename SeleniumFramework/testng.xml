@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="2" name="Test" parallel="methods">
     <classes>
-      <class name="tests.TC002"/>
-      <class name="tests.TC001"/>
+      <class name="tests.GoogleTest"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

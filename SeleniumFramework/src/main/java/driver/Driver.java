@@ -9,7 +9,7 @@ public final class Driver {
 
 	public static void initDriver() {
 		if (Objects.isNull(DriverManager.getDriver())) {
-			System.setProperty("webdriver.chrome.driver", "E:\\Utilities\\selenium-drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\Marker\\Workspace\\Selenium Automation Framework\\SeleniumFramework\\src\\test\\resources\\chromedriver.exe");
 			DriverManager.setDriver(new ChromeDriver());
 			DriverManager.getDriver().get("https://www.google.com");
 		}

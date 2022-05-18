@@ -16,7 +16,7 @@ public class BaseTest {
 		Driver.initDriver();
 	}
 	
-	@AfterMethod(alwaysRun = true)
+	@AfterMethod()
 	public void tearDriver() {
 		System.out.println("closing browser "+Thread.currentThread().getName());
 		Driver.tearDownDriver();

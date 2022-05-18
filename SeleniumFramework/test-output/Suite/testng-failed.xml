@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
-      <class name="tests.TC002">
+      <class name="tests.GoogleTest">
         <methods>
-          <include name="testSecond"/>
+          <include name="validateSearchOperation"/>
           <include name="tearDriver"/>
           <include name="setupDriver"/>
         </methods>
-      </class> <!-- tests.TC002 -->
+      </class> <!-- tests.GoogleTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
